@@ -388,7 +388,7 @@ title="Print to PDF"
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">url</span> <span class="o">=</span> <span class="s2">&quot;https://raw.githubusercontent.com/alisaSugiarti/datamining/main/IRIS.csv&quot;</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">url</span> <span class="o">=</span> <span class="s2">&quot;https://raw.githubusercontent.com/choirinnisafitria/datamining/main/iris.csv&quot;</span>
 <span class="c1">#colnames = [&#39;sepal-length&#39;, &#39;sepal-width&#39;, &#39;petal-length&#39;, &#39;petal-width&#39;, &#39;Class&#39;]</span>
 <span class="n">air</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
 <span class="n">air</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -397,7 +397,7 @@ title="Print to PDF"
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-1193846b-f7b9-4bad-9536-9d93c48ce672">
+  <div id="df-fa445c06-bb6d-406d-a8de-0d963c375df5">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -417,11 +417,11 @@ title="Print to PDF"
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>sepal_length</th>
-      <th>sepal_width</th>
-      <th>petal_length</th>
-      <th>petal_width</th>
-      <th>species</th>
+      <th>sepal.length</th>
+      <th>sepal.width</th>
+      <th>petal.length</th>
+      <th>petal.width</th>
+      <th>variety</th>
     </tr>
   </thead>
   <tbody>
@@ -431,7 +431,7 @@ title="Print to PDF"
       <td>3.5</td>
       <td>1.4</td>
       <td>0.2</td>
-      <td>Iris-setosa</td>
+      <td>Setosa</td>
     </tr>
     <tr>
       <th>1</th>
@@ -439,7 +439,7 @@ title="Print to PDF"
       <td>3.0</td>
       <td>1.4</td>
       <td>0.2</td>
-      <td>Iris-setosa</td>
+      <td>Setosa</td>
     </tr>
     <tr>
       <th>2</th>
@@ -447,7 +447,7 @@ title="Print to PDF"
       <td>3.2</td>
       <td>1.3</td>
       <td>0.2</td>
-      <td>Iris-setosa</td>
+      <td>Setosa</td>
     </tr>
     <tr>
       <th>3</th>
@@ -455,7 +455,7 @@ title="Print to PDF"
       <td>3.1</td>
       <td>1.5</td>
       <td>0.2</td>
-      <td>Iris-setosa</td>
+      <td>Setosa</td>
     </tr>
     <tr>
       <th>4</th>
@@ -463,12 +463,12 @@ title="Print to PDF"
       <td>3.6</td>
       <td>1.4</td>
       <td>0.2</td>
-      <td>Iris-setosa</td>
+      <td>Setosa</td>
     </tr>
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-1193846b-f7b9-4bad-9536-9d93c48ce672')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-fa445c06-bb6d-406d-a8de-0d963c375df5')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
 
@@ -519,12 +519,12 @@ title="Print to PDF"
 
       <script>
         const buttonEl =
-          document.querySelector('#df-1193846b-f7b9-4bad-9536-9d93c48ce672 button.colab-df-convert');
+          document.querySelector('#df-fa445c06-bb6d-406d-a8de-0d963c375df5 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-1193846b-f7b9-4bad-9536-9d93c48ce672');
+          const element = document.querySelector('#df-fa445c06-bb6d-406d-a8de-0d963c375df5');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -556,7 +556,7 @@ title="Print to PDF"
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-2b67b47f-f879-4fca-a17d-0fbf6ae1fce8">
+  <div id="df-bd40c5e0-89f7-45e6-8397-0f1c6771ce57">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -576,10 +576,10 @@ title="Print to PDF"
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>sepal_length</th>
-      <th>sepal_width</th>
-      <th>petal_length</th>
-      <th>petal_width</th>
+      <th>sepal.length</th>
+      <th>sepal.width</th>
+      <th>petal.length</th>
+      <th>petal.width</th>
     </tr>
   </thead>
   <tbody>
@@ -621,7 +621,7 @@ title="Print to PDF"
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-2b67b47f-f879-4fca-a17d-0fbf6ae1fce8')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-bd40c5e0-89f7-45e6-8397-0f1c6771ce57')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
 
@@ -672,12 +672,12 @@ title="Print to PDF"
 
       <script>
         const buttonEl =
-          document.querySelector('#df-2b67b47f-f879-4fca-a17d-0fbf6ae1fce8 button.colab-df-convert');
+          document.querySelector('#df-bd40c5e0-89f7-45e6-8397-0f1c6771ce57 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-2b67b47f-f879-4fca-a17d-0fbf6ae1fce8');
+          const element = document.querySelector('#df-bd40c5e0-89f7-45e6-8397-0f1c6771ce57');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -741,10 +741,10 @@ title="Print to PDF"
  [5.4 3.4 1.5 0.4]
  [5.2 4.1 1.5 0.1]
  [5.5 4.2 1.4 0.2]
- [4.9 3.1 1.5 0.1]
+ [4.9 3.1 1.5 0.2]
  [5.  3.2 1.2 0.2]
  [5.5 3.5 1.3 0.2]
- [4.9 3.1 1.5 0.1]
+ [4.9 3.6 1.4 0.1]
  [4.4 3.  1.3 0.2]
  [5.1 3.4 1.5 0.2]
  [5.  3.5 1.3 0.3]
@@ -921,7 +921,7 @@ title="Print to PDF"
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[[0.19611111 0.59083333 0.07864407 0.06      ]
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[[0.19611111 0.595      0.07830508 0.06083333]
  [0.44125683 0.30737705 0.57571548 0.54918033]
  [0.70726496 0.4508547  0.79704476 0.82478632]]
 </pre></div>
@@ -954,7 +954,7 @@ title="Print to PDF"
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.legend.Legend at 0x7f276ae51ed0&gt;
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.legend.Legend at 0x7f237a6bbf90&gt;
 </pre></div>
 </div>
 <img alt="_images/Tugas 5_23_1.png" src="_images/Tugas 5_23_1.png" />
